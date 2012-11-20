@@ -2,7 +2,7 @@
 
 "use strict";
 
-var SERIALPORT = '/dev/tty.usbmodemfa141';
+var SERIALPORT = '/dev/tty.usbmodemfd1211';
 //var SERIALPORT = '/dev/tty.usbserial-A6006klc';
 
 // FIXME: this is in bad need of a rewrite
@@ -21,9 +21,9 @@ var sp;
 var chat;
 
 var HOST = "badger.encorelab.org";
-var USER = "toronto";
+var USER = "chicago";
 var NICK = process.argv[2] || USER;
-var PASSWORD = "toronto";
+var PASSWORD = "chicago";
 
 var MY_JID = USER + "@" + HOST;
 var ROOM_JID = "rock-paper-awesome@conference." + HOST;
