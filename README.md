@@ -14,6 +14,7 @@ Rock Paper Awesome
 
 1. `cd` to the root directory where `rock_paper_awesome.node.js` is located
 2. `npm install` to install all necessary dependencies
+   npm install node-stringprep
 3. Edit the `SERIALPORT` value in `rock_paper_awesome.node.js` to point
    to the dev that represents your USB serial connection to your Arduino
 4. Run `node rock_paper_awesome.node.js`
